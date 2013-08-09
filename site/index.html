@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=PT+Serif:400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script type="text/javascript" src="dependence.js"></script>
+	<link rel="stylesheet" href="style.css">
+	<title>Site</title>
+</head>
+<body>
+	<header class="head">		
+		<a href="www.facebook.com/‎"><img src="images/facebook_connect.png" alt="facebook_connect"></a>
+		<form class="header_form" action="submit">
+			<input class="user_input" type="text" placeholder="Username" size="15">
+			<input class="user_input" type="text" placeholder="Password" size="15">
+		</form>
+		<a class="forgot_password" href="#">Forgot Password?</a>
+		<a class="login" href="#">LOGIN</a>
+		<a class="create_account" href="#">CREATE ACCOUNT</a>
+	</header>
+	<div class="menu">
+		<p>CUSTOMER SUPPORT   <h1>1-651-888-8888</h1></p>
+		<img src="images/logo.png" alt="logo">		
+		<nav class="top_menu">
+			<a href="#">HOME</a>
+			<a href="#">SALVAGED VEHICLES</a>
+			<a href="#">BOATS</a>
+			<a href="#">MOTORCYCLES</a>
+			<a href="#">JET SKIS</a>
+			<a href="#">TONS PARTS</a>
+			<a href="#">BUYER FAQ</a>
+			<a href="#">SELLER FAQ</a>
+		</nav>
+		<div class="menu_border"></div>
+	</div>
+	<div class="content">
+		<div class="search_menu">
+			<div class="first_search">
+				<p>I'm looking for a...</p>
+
+				<div class="select_style">
+				<select name="menu" id="level" onchange="showNames(this.value)">
+    			<option value="germany">Germany</option> 
+    			<option value="usa">USA</option> 
+				</select>
+				</div>
+
+				<div class="second_select_style">
+				<select name="menu" id="producer">
+				</select>
+				</div>
+
+				<div class="second_select_style">
+				<select name="menu">
+				<option value="1">Model</option>
+				<option value="2">Car</option>
+				<option value="3">Truck</option>
+				<option value="4">Boat</option>
+				</select>
+				</div>
+				
+				<div class="second_select_style">
+				<select name="menu">
+				<option value="1">Year</option>
+				<option value="2">Car</option>
+				<option value="3">Truck</option>
+				<option value="4">Boat</option>
+				</select>
+				</div>
+				<div class="second_select_style">
+				<select name="menu">
+				<option value="1">Title status</option>
+				<option value="2">Car</option>
+				<option value="3">Truck</option>
+				<option value="4">Boat</option>
+				</select>
+				</div>
+				<a href="#">SEARCH</a>
+				<img src="images/search_border.png" alt="search border">				
+			</div>
+			<div class="second_search">
+				<h6>Search by location</h6>				
+				<input class="zip_code" type="text" placeholder="Enter Zip Code" size="17">	
+				<p>Radius within</p>				
+				<div class="radius_within">				
+				<select name="menu">
+				<option value="1">Miles</option>
+				<option value="2">Km</option>
+				</select>
+				</div>
+				<a href="#">SEARCH</a>
+				<img src="images/search_border.png" alt="search border">			
+			</div>	
+			<div class="third_search">
+				<div class="transporter">				
+				<p>Find a transporter</p>
+				</div>
+				<div class="finance">				
+				<p>Need finance?</p>
+				</div>
+				<img src="images/search_border.png" alt="search border">
+			</div>	
+			<div class="social">
+				<a href="#"><img src="images/facebook.png" alt="#"></a>
+				<a href="#"><img src="images/in.png" alt="#"></a>
+				<a href="#"><img src="images/twitter.png" alt="#"></a>
+			</div>	
+		</div>
+		<article class="main_block">
+			<p>Currently listing 102,234 cars</p>
+			<div class="blurb">
+				<a href="#"><img src="images/start.png" alt="#"></a>
+				<iframe width="258" height="163" src="http://www.youtube.com/embed/GgZ9iEqh24Y?rel=0" frameborder="0" allowfullscreen></iframe>
+			</div>
+			<div class="email">
+				<h3>Custom Email Alerts</h3>
+				<p>Enter your email here and set up your own custom alert.</p>
+				<input type="text" placeholder="Email address" size="22">
+				<a href="#">SUBMIT</a>
+			</div>
+			<div class="ads">
+				<h1>NEW ARRIVALS</h1>
+				<div class="product">
+					<h5>2005 FORD EXPLORER XLE</h5>
+					<img src="images/ford.png" alt="ford">
+					<p><b>Title:</b>&nbsp;Marked</p>
+					<p><b>Make:</b>&nbsp;Ford</p>
+					<p><b>Model:</b>&nbsp;Explorer</p>
+					<p><b>Year:</b>&nbsp;2005</p>
+					<div class="info">
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam se nulla a nunc pretium ut congue nunc imperdiet. Nulla et mi sit amet libero tempor faucibus ac id quam. Aliquam sollicitudin facilisis posuere. Cras tempor imperdiet.</p>
+						<a href="#">READ MORE</a>
+						<h2>$650</h2>
+											
+					</div>
+					<div class="carfax"><h4>123,000 miles</h4><a href="#"><img src="images/carfax.png" alt=""></a></div>
+					<img src="images/separate.png" alt="separate">										
+				</div>
+				<div class="product">
+					<h5>2005 FORD EXPLORER XLE</h5>
+					<img src="images/ford.png" alt="ford">
+					<p><b>Title:</b>&nbsp;Marked</p>
+					<p><b>Make:</b>&nbsp;Ford</p>
+					<p><b>Model:</b>&nbsp;Explorer</p>
+					<p><b>Year:</b>&nbsp;2005</p>
+					<div class="info">
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam se nulla a nunc pretium ut congue nunc imperdiet. Nulla et mi sit amet libero tempor faucibus ac id quam. Aliquam sollicitudin facilisis posuere. Cras tempor imperdiet.</p>
+						<a href="#">READ MORE</a>
+						<h2>$650</h2>						
+					</div>					
+					<div class="carfax"><h4>123,000 miles</h4><a href="#"><img src="images/carfax.png" alt=""></a></div>
+					<img src="images/separate.png" alt="separate">	
+				</div>
+				<div class="product">
+					<h5>2005 FORD EXPLORER XLE</h5>
+					<img src="images/ford.png" alt="ford">
+					<p><b>Title:</b>&nbsp;Marked</p>
+					<p><b>Make:</b>&nbsp;Ford</p>
+					<p><b>Model:</b>&nbsp;Explorer</p>
+					<p><b>Year:</b>&nbsp;2005</p>
+					<div class="info">
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam se nulla a nunc pretium ut congue nunc imperdiet. Nulla et mi sit amet libero tempor faucibus ac id quam. Aliquam sollicitudin facilisis posuere. Cras tempor imperdiet.</p>
+						<a href="#">READ MORE</a>
+						<h2>$650</h2>						
+					</div>	
+					<div class="carfax"><h4>123,000 miles</h4><a href="#"><img src="images/carfax.png" alt=""></a></div>
+					<img src="images/separate.png" alt="separate">					
+				</div>
+			</div>
+		</article>
+	</div>
+	<footer class="footer">
+		<img src="images/foot_logo.png" alt="logo">
+		<nav>
+			<a href="#">Terms of Use</a>
+			<a href="#">Privacy Policy</a>
+			<a href="#">About Us</a>
+			<a href="#">Contact Us</a>
+			<a href="#">Need Financing</a>
+			<a href="#">Find a Transporter</a>
+		</nav>
+		<p>&copy;Copyright 2011 Site.com</p>
+		<div class="foot_social">
+			<a href="#"><img src="images/facebook.png" alt="#"></a>
+			<a href="#"><img src="images/in.png" alt="#"></a>
+			<a href="#"><img src="images/twitter.png" alt="#"></a>
+		</div>
+	</footer>	
+</body>
+</html>

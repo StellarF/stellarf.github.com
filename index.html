@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Homework</title>
+	<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=PT+Serif:400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet/less" type="text/css" href="style.less">
+	<script src="less.js" type="text/javascript"></script>
+</head>
+<body>
+
+	<div class="left_title">
+		<a href="#" title="lorem ipsum news">LOREM IPSUM NEWS</a>
+	</div>	
+
+	<div class="sign_in"><a onclick="showBlock()" href="#" title="sign in">Войти</a></div>
+
+	<div class="main_title">
+		<p>Новости</p>
+	</div>
+
+	<div class="menu">
+		<ul>
+			<li>скандалы</li>
+			<li>&bull;</li>
+			<li>интриги</li>
+			<li>&bull;</li>
+			<li>расследования</li>
+		</ul>
+	</div>
+	<section class="news_content">
+		<div class="news">
+			<div class="mark1">
+				<p>Скандал</p>
+			</div>
+			<img src="images/img1.png" alt="point">		
+			<header class="news_header"><a href="news.html" title="first news">Страны Евросоюза могут ввести санкции против Google</a></header>
+			<div class="content">
+			<p>Европейские власти обеспокоены политикой конфиденциальности компании Google. 
+				Google хранит личные данные пользователей в&nbsp;одном профиле, в&nbsp;котором может 
+				объединяться информация с&nbsp;нескольких десятков разных сайтов.</p>
+			</div>
+		</div>
+
+		<div class="news">
+			<div class="mark2">
+				<p>Интрига</p>
+			</div>
+			<img src="images/img2.png" alt="point">		
+			<header class="news_header"><a href="#" title="second news">ФАС уличила ВГТРК в&nbsp;рекламе алкоголя при трансляции футбольного матча</a></header>
+			<div class="content">
+			<p>Проверка фотографий и&nbsp;видео-записей показала, что на&nbsp;рекламных стендах стадиона
+			 &laquo;Стэмфорд Бридж&raquo; во&nbsp;время указанного матча не&nbsp;были размещены рекламные плакаты данных 
+			 производителей алкогольной продукции. Рассмотрение данного дела ФАС России назначил на&nbsp;15&nbsp;мая 2013&nbsp;года.</p>
+			</div>
+		</div>
+
+		<div class="news">
+			<div class="mark3">
+				<p>Расследование</p>
+			</div>
+			<img src="images/img3.png" alt="point">		
+			<header class="news_header"><a href="#" title="third news">Возобновление борьбы за&nbsp;домены в&nbsp;зоне .рф маловероятно, считают юристы</a></header>
+			<div class="content">
+			<p>&laquo;По&nbsp;всем 70914 доменным именам поступили заявки от&nbsp;клиентов, желающих их&nbsp;приобрести в&nbsp;указанном
+			 порядке&raquo;,&nbsp;&mdash; говорится в&nbsp;тексте судебного решения от&nbsp;16&nbsp;ноября 2011&nbsp;г. Апелляционная инстанция частично
+			 удовлетворила иск ФАС, а&nbsp;кассационная передала дело на&nbsp;рассмотрение в&nbsp;президиум ВАС.</p>
+			</div>
+		</div>
+	</section>
+	<div class="footer">		
+		<p>&copy;&nbsp;ЗАО &laquo;Лорем ипсум ньюс&raquo;</p>
+	</div>
+	
+	<div id="hidden" class="hidden">
+		<div class="authorization">
+			<form action="submit">
+			<input type="login" placeholder="Логин" size="35">
+			<input type="password" placeholder="Пароль" size="35"> 		
+		<input type= 'submit' name='Войти' value= 'Войти'><a onclick="showBlock1()" href="#" title="cancel">Отмена</a>
+		</form> 
+		</div>
+		<div id="back" class="back"></div>
+	</div>
+	
+	<script>
+			function showBlock() {document.getElementById('hidden').style.display="block"}	
+			function showBlock1() {document.getElementById('hidden').style.display="none"}
+	</script>
+
+</body>
+</html>
